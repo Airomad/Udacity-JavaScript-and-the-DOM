@@ -19,32 +19,8 @@
     <p class="p"></p>
     <p class="p"></p>
   </div>
-  <div class="class1">
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-  </div>
-  <div class="class1">
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-    <p class="p"></p>
-  </div>
   <script>
-    const MAX_ITERATIONS = 1000000;
+    const MAX_ITERATIONS = 10000000;
 
     function testElementSelectMethod(method, searchValue) {
       const testStartTime = performance.now();
@@ -57,12 +33,16 @@
       console.log(`${method} took ${testTotalTime} ms.`);
     }
 
-    testElementSelectMethod('getElementById', 'test');
+    // Get unique element test
+    testElementSelectMethod('getElementsByTagName', 'span');
+    testElementSelectMethod('getElementsByClassName', 'span');
     testElementSelectMethod('querySelector', 'span');
-    
-    testElementSelectMethod('querySelectorAll', 'span.span');
-    testElementSelectMethod('getElementsByClassName', 'p');
+    testElementSelectMethod('querySelectorAll', 'span');
+
+    // Get all elements test
     testElementSelectMethod('getElementsByTagName', 'p');
+    testElementSelectMethod('getElementsByClassName', 'p');
+    testElementSelectMethod('querySelectorAll', 'p');
   </script>
 </body>
 </html>
