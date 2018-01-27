@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>Speed Test of DOM select Elements Methods</title>
+</head>
+<body>
+  <h1>Some title</h1>
+  <div id="test">
+    <span class="span"></span>
+  </div>
+  <div class="class1">
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+  </div>
+  <div class="class1">
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+  </div>
+  <div class="class1">
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+    <p class="p"></p>
+  </div>
+  <script>
+    const MAX_ITERATIONS = 1000000;
+
+    function testElementSelectMethod(method, searchValue) {
+      const testStartTime = performance.now();
+
+      for (let i = 0; i < MAX_ITERATIONS; i++) {
+        const elem = document[method](searchValue);
+      }
+
+      const testTotalTime = performance.now() - testStartTime;
+      console.log(`${method} took ${testTotalTime} ms.`);
+    }
+
+    testElementSelectMethod('getElementById', 'test');
+    testElementSelectMethod('querySelector', 'span');
+    
+    testElementSelectMethod('querySelectorAll', 'span.span');
+    testElementSelectMethod('getElementsByClassName', 'p');
+    testElementSelectMethod('getElementsByTagName', 'p');
+  </script>
+</body>
+</html>
