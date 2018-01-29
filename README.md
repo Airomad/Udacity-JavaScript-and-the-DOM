@@ -9,6 +9,7 @@
 - [Tokenization](https://www.w3.org/TR/2014/REC-html5-20141028/syntax.html#tokenization)
 - [The poor, misunderstood innerText](http://perfectionkills.com/the-poor-misunderstood-innerText/)
 - [innerText vs textContent](https://kellegous.com/j/2013/02/27/innertext-vs-textcontent/)
+- [CSS Specificity: Things You Should Know](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
 
 ## Research
 
