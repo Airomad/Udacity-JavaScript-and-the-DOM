@@ -9,9 +9,15 @@
 - [Tokenization](https://www.w3.org/TR/2014/REC-html5-20141028/syntax.html#tokenization)
 - [The poor, misunderstood innerText](http://perfectionkills.com/the-poor-misunderstood-innerText/)
 - [innerText vs textContent](https://kellegous.com/j/2013/02/27/innertext-vs-textcontent/)
+
+### CSS:
 - [CSS Specificity: Things You Should Know](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+
+### Events:
 - [Explanation about Event Bubbling and Capturing](https://www.youtube.com/watch?time_continue=37&v=rGhgPPYc2sg)
 - [Event Flow](https://www.w3.org/TR/DOM-Level-3-Events/#event-flow)
+- [Event Delegation](https://javascript.info/event-delegation)
+- [How JavaScript Event Delegation Works](https://davidwalsh.name/event-delegate)
 
 ## Research
 
