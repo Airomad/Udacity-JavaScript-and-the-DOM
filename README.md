@@ -10,6 +10,7 @@
 - [The poor, misunderstood innerText](http://perfectionkills.com/the-poor-misunderstood-innerText/)
 - [innerText vs textContent](https://kellegous.com/j/2013/02/27/innertext-vs-textcontent/)
 - [CSS Specificity: Things You Should Know](https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/)
+- [Explanation about Event Bubbling and Capturing](https://www.youtube.com/watch?time_continue=37&v=rGhgPPYc2sg)
 
 ## Research
 
