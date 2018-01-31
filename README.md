@@ -14,6 +14,9 @@
 - [Не используйте большие сложные макеты и избегайте подтормаживания макетов](https://developers.google.com/web/fundamentals/performance/rendering/avoid-large-complex-layouts-and-layout-thrashing)
 - [Analyze rendering performance with the Rendering tab](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#rendering)
 - [REFLOWS & REPAINTS: CSS PERFORMANCE MAKING YOUR JAVASCRIPT SLOW?](http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/)
+- [Call Stack on Wikipedia](https://en.wikipedia.org/wiki/Call_stack)
+- [Concurrency model and Event Loop on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+- [Philip Roberts: What the heck is the event loop anyway? (Youtube)](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 ### DOM:
 - [The poor, misunderstood innerText](http://perfectionkills.com/the-poor-misunderstood-innerText/)
